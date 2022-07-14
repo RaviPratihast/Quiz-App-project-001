@@ -5,3 +5,91 @@
 }
 
 
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    /* border: 2px solid black; */
+
+
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+.quiz-container{
+    width: 40rem;
+    height: auto;
+
+    border: 2px solid black;
+
+   
+}
+
+
+.question-box{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* margin: 1rem; */
+
+    /* border: 2px solid green; */
+}
+.question-box>h2{
+    margin: 1rem;
+}
+
+.answer-box{
+
+    /* border: 2px blue solid; */
+    /* margin: 1rem; */
+}
+
+.answer-box>ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    line-height: 2;
+    margin: 1rem;
+}
+.answer-box>ul>li{
+    list-style: none;
+}
+
+.btn-container{
+    /* width: 20rem; */
+    /* border: 2px solid purple; */
+
+
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    
+
+    font-size: large;
+    font-weight: 800;
+
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    border: none;
+
+
+    border-radius: 5px;
+
+}
