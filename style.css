@@ -20,6 +20,8 @@ main{
     justify-content: center;
     align-items: center;
 
+    background-color: aliceblue;
+
     
 
 }
@@ -92,4 +94,23 @@ main{
 
     border-radius: 5px;
 
+}
+
+
+
+/* new inner html created */
+
+
+.question-done{
+    width: 40rem;
+    height:auto ;
+
+    border: 2px solid black;
+}
+
+.wait-for-answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
 }
